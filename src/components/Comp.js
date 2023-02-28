@@ -1,9 +1,9 @@
-import React from 'react'
+// import React from 'react'
 
-const Comp = (props) => {
-  return (
-    <h2>{props.name}</h2>
-  )
-}
+// const Comp = (props) => {
+//   return (
+//     <h2>{props.name}</h2>
+//   )
+// }
 
-export default Comp
+// export default Comp
