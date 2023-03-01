@@ -7,23 +7,17 @@ import movies from './movie.json'
 
 
 function App() {
+  let login=false;
+
   return (
     <div classNmae="App">
-      {/* <Student
-        name="utkarsh"
-        age={24}
-      />
-      <Student
-        name="priyanka"
-        age={26}
-      />
-      <Student
-        name="jain"
-        age={2}
-      /> */ 
-           
-      }
-      <Header/> 
+{
+login == false ? <h1>hellp world</h1> : <div>bye</div>
+//ternarey operator
+}
+
+
+            <Header/> 
       <div classNmae='main'>
 
 {
